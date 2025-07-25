@@ -115,5 +115,49 @@ a{
     align-content: center;
 }
 
+/* join section style */
+.join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 1440 / 533;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 50px;
+}
+.join-content{
+    display: flex;
+    justify-content: center;
+}
+.join-section input{
+    width: 40%;
+    background-color: white;
+    padding: 15px 20px;
+}
+.join-section button{
+    background-color: #E95A08;
+    padding: 15px 50px;
+}
+/* footer related style */
+footer{
+    justify-content: space-between;
+}
+.footer-logo{
+    max-width: 360px;
+}
+.manu p{
+    margin-bottom: 2rem;
+}
+.social-link{
+    gap: 20px;
+}
+.social-link img{
+    width: 36px;
+    height: 36px;
+}
+
 
 
