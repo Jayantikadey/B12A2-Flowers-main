@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.noto-serif {
+  font-family: "Noto Serif";
+}
+.inter-font{
+  font-family: "Inter";
+}
+
+/* share style */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 20px 80px;
+    color: white;
+}
+.btn:hover {
+  background: #E95A08;
+  transform: scale(1.05);
+}
+a{ 
+     padding: 0 20px;
+  
+}
+/* header part style */
+.nav{
+    margin: 30px auto;
+}
+.nav-menu{
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+}
+.banner{
+    margin: 120px auto;
+    align-items: end;
+}
+ /* plant section style */
+ .plant-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 4rem auto;
+    gap: 20px;
+
+}
+.plant-card-container img{
+    margin-bottom: 30px;
+}
+.plant-card-container .btn{
+    margin-top: 30px;
+}
+/* flower plants */
+
+.flower-plants{
+    gap: 60px;
+    position: relative;
+    align-items: center;
+    margin: 120px auto;
+}
+.flower-plants li{
+    margin-bottom: 20px;
+    list-style: disc;
+    margin-left: 30px;
+}
+.badge{
+    position: absolute;
+    width: 286px;
+    translate: 120%;
+}
+
